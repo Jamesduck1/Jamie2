@@ -1,0 +1,71 @@
+---
+title: "Spook"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cosmo
+    highlights: zenburn
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# SpoOoOOooki Markdown
+
+This is an *haunted* Markdown document. Markdown is a ***spooky*** formatting syntax for authoring SpookML, SDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Spook** button a document will be generated that includes both content as well as the skeletons of any embedded R code chunks within the document. You can embed an spook code chunk like this:
+
+```{r, echo=TRUE, eval = FALSE}
+install.packages(c("skimr", "ggplot2", "dplyr", "plotly", "DT", "tibble"))
+```
+
+# Spooky Plots
+
+You can also embed plots, for example:
+
+```{r , echo=FALSE, warning=FALSE}
+library(gapminder)
+library(ggplot2)
+library(plotly)
+datum<-gapminder
+p <- ggplot(datum, aes(x = log(gdpPercap), y = log(lifeExp), color = continent)) + geom_point()
+
+```
+
+```{r pressure, echo=FALSE}
+ggplotly(p)
+
+```
+
+1. List one 
+1. List 4
+
+
+image: ![](https://s3-eu-west-1.amazonaws.com/static.gapminder.org/GapminderMedia/wp-uploads/20180907224416/Dollar-Street-thumbnail1.png)
+<img src="https://s3-eu-west-1.amazonaws.com/static.gapminder.org/GapminderMedia/wp-uploads/20180907224416/Dollar-Street-thumbnail1.png" width="200px" />
+
+<br />
+<br />
+
+```{r echo=TRUE, eval=FALSE}
+data(airquality)
+DT::datatable(airquality, caption = "New York Air Quality Measurements")
+```
+
+
+
+>Calcium is good for bones
+
+-ALbert Einstein, 1983
+
+# OoOoooOOOoooOOOoOoOo
+## OoOoooOOOoooOOOoOoOo
+### OoOoooOOOoooOOOoOoOo
+#### spoOoOoooOOOoooOOOoOoOoki
+##### OoOoooOOOoooOOOoOoOo
+###### OoOoooOOOoooOOOoOoOo
+
+image: ![](U:/Jamie/jamienew/Jamie2/download.jfif) 
