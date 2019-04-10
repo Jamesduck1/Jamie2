@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # SpoOoOOooki Markdown
 
-This is an *haunted* Markdown document. Markdown is a ***spooky*** formatting syntax for authoring SpookML, SDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This is an *haudfnted* Markdown document. Markdown is a ***spooky*** formatting syntax for authoring SpookML, SDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Spook** button a document will be generated that includes both content as well as the skeletons of any embedded R code chunks within the document. You can embed an spook code chunk like this:
 
